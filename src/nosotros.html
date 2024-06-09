@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+    <title>Nuestro Concurso</title>
+  </head>
+
+  <body>
+    <include src="./views/header.html"></include>
+
+    <div class="overflow-auto">
+      <include src="./views/menu.html">
+        {
+          "menu1": "Inicio",
+          "menu2": "Acerca del concurso",
+          "menu3": "Participantes",
+          "menu4": "Experiencia Chefs 2024-1",
+          "menu5": "Contacto"
+        }        
+      </include>
+
+    <div class="flex flex-col items-center justify-center">
+      <article class="max-w-2x1 mx-auto text-justify pl-5 pr-5">
+        <h2 class="text-2xl font-bold mb-2 text-center">NUESTRO CONCURSO</h2>
+        <section>
+          <h3 class="text-1xl text-center font-bold mb-2">Nuestra Filosofía</h3>
+          <p class="mb-4">El concurso Master Chef es conocido por su riguroso proceso de selección, en el que los chefs se eligen en función de su experiencia, habilidades y conocimientos en las artes culinarias. Los concursantes se enfrentan a una serie de intensos desafíos que ponen a prueba sus habilidades para crear platos únicos y deliciosos bajo presión.</p>
+          <p class="mb-4">El concurso Master Chef no sólo celebra el arte de cocinar, sino que también inspira a los aspirantes a chefs a esforzarse y perfeccionar sus habilidades. Es una plataforma que no sólo muestra los talentos de estos chefs sino que también reúne al mundo culinario en una celebración de la comida y la creatividad. Cada año que pasa, el concurso Master Chef continúa elevando el listón y estableciendo nuevos estándares de excelencia en el mundo culinario.</p>
+          <p class="mb-4">El propósito del concurso Master Chef se extiende más allá de la competencia en sí: es una iniciativa de marketing estratégica que eleva el perfil de los chefs participantes, atrae la atención sobre nuestra marca y genera expectación dentro de la comunidad culinaria. Al mostrar los talentos excepcionales de estos chefs, no solo celebramos sus habilidades únicas y sus enfoques innovadores de la cocina, sino que también nos posicionamos como defensores de la excelencia culinaria y partidarios de las artes culinarias.</p>
+          <p class="mb-4">Desde aperitivos meticulosamente elaborados hasta platos principales exquisitamente servidos, y desde deliciosos postres hasta bebidas perfectamente combinadas, el concurso es un testimonio de la diversidad y la creatividad que definen el panorama culinario. Cada plato presentado es un reflejo del arte y la dedicación del chef, ya que equilibran hábilmente sabores, texturas y atractivo visual para crear una experiencia gastronómica inolvidable.</p>
+          <img src="assets/images/Chef10.png" alt="Artes Culinarias" title="Artes Culinarias" class="mx-auto">
+          <blockquote class="text-1x1 text-center italic font-bold mb-4">
+            Master Chef Wario, ganador del concurso en su versión 2023.
+          </blockquote>
+          <p class="mb-4">El tono del concurso Master Chef es de profesionalismo y respeto inquebrantable por el oficio culinario. Mantenemos los más altos estándares de experiencia culinaria y defendemos la integridad de la competencia para garantizar una plataforma justa y equitativa para todos los participantes. Nuestro compromiso con la excelencia es inquebrantable y nos enorgullecemos de fomentar un entorno que fomenta la innovación, la colaboración y la búsqueda del dominio culinario.</p>
+          <p class="mb-4">Además del título, el ganador del concurso Master Chef también recibe un premio en efectivo y la oportunidad de trabajar junto a algunos de los mejores chefs del mundo. Pero para la mayoría de los concursantes, el verdadero premio es el reconocimiento y la exposición que reciben por su talento y trabajo duro.</p>
+        </section>
+        <br>
+      
+        <section>
+          <h3 class="text-1xl text-center font-bold mb-2">Los ingredientes para este concurso son:</h3>
+          <img src="assets/images/chefBook.png" alt="Principios del chef" title="Principios del chef" class="mx-auto h-60 mb-4">
+          <ul class="list-inside mx-auto text-center">
+            <li>Justicia</li>
+            <li>Creatividad</li>
+            <li>Originalidad</li>
+            <li>Transparencia</li>
+            <li>Imparcialidad</li>
+            <li>Profesionalismo</li>
+            <li>Innovación</li>
+          </ul>
+        </section>
+      </article>          
+    </div>
+    
+    <include src="./views/footer.html">
+      {
+        "Autor": "JOSE LUIS PAREJA SALINAS",
+        "Asignatura": "Herramientas HTML y CSS II"        
+      }
+    </include>
+  </body>
+</html>

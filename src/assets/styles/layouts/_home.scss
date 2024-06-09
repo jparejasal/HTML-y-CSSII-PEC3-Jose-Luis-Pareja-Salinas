@@ -1,0 +1,32 @@
+// Estilos universales del sitio web.
+html {
+  @apply font-verdana box-border text-neutral-950;
+}
+
+// Estilos encabezado del sitio web
+.header {
+  background-image: $header-bg-image;
+}
+
+// Estilos menú principal del sitio web
+.menu li {
+  @apply p-2 mb-2 block bg-black;
+}
+
+.menu li a {
+  @apply text-orange-500 no-underline hover:underline;
+}
+
+.menu li a i {
+  @apply text-orange-500;
+}
+
+// Estilos generales para imágenes del sitio web
+img {
+    @apply border-dashed border-2 border-black;
+}
+
+// Estilos para los botones de perfil de la página participantes.html
+.chefbutton {
+  @apply bg-black p-3 text-white text-center w-full rounded-full cursor-pointer;
+}

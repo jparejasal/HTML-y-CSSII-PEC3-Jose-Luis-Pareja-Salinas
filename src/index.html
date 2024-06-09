@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+    <title>Inicio</title>
+  </head>
+
+  <body>    
+    <include src="./views/header.html"></include>
+
+    <div class="overflow-auto">
+      <include src="./views/menu.html">
+        {
+          "menu1": "Inicio",
+          "menu2": "Acerca del concurso",
+          "menu3": "Participantes",
+          "menu4": "Experiencia Chefs 2024-1",
+          "menu5": "Contacto"
+        }        
+      </include>
+      
+      <div class="flex flex-col items-center justify-center">
+        <h2 class="text-2xl font-bold mb-2 text-center">BIENVENIDOS</h2>
+        <p class="max-w-2x1 mx-auto text-justify pl-5 pr-5 mb-2">El concurso Master Chef es una competencia culinaria muy esperada que reúne a algunos de los chefs más hábiles
+          y apasionados de todo el mundo. Este prestigioso evento, que se celebra anualmente, muestra el talento y la
+          creatividad de estos maestros culinarios mientras compiten por el título de Master Chef. Esta estimada
+          competencia sirve como
+          plataforma para que los artistas culinarios emergentes demuestren sus técnicas innovadoras, al mismo tiempo que
+          brinda una oportunidad para que los profesionales experimentados solidifiquen su estatus como líderes de la
+          industria.</p>
+          <img src="assets/images/Chef11.png" alt="Imagen portada" title="Imagen portada" class="mx-auto h-80 mb-4">         
+      </div>      
+    </div>
+
+    <include src="./views/footer.html">
+      {
+        "Autor": "JOSE LUIS PAREJA SALINAS",
+        "Asignatura": "Herramientas HTML y CSS II"        
+      }
+    </include>
+  </body>
+</html>
